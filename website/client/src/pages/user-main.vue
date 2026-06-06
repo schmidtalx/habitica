@@ -379,6 +379,7 @@ export default {
           return this.loadContentTranslations();
         }
       }
+      // start handler here
       await axios.get(
         '/api/v4/i18n/core',
         {
